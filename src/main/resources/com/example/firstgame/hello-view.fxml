@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="398.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.firstgame.HelloController">
+   <children>
+      <ImageView fx:id="bg1" fitHeight="460.0" fitWidth="760.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/253f77829bb26b62c1e83cd1df83d7f9.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bg2" fitHeight="414.0" fitWidth="760.0" layoutX="760.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/253f77829bb26b62c1e83cd1df83d7f9.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player" fitHeight="170.0" fitWidth="156.0" layoutX="21.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/1689585042.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="enemy" fitHeight="85.0" fitWidth="137.0" layoutX="779.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/1728892139624.png" />
+         </image>
+      </ImageView>
+
+      <ImageView fx:id="flyenemyTwo" fitHeight="73.0" fitWidth="124.0" layoutX="1370.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/b8758ecfd31df4e946a86c83996635f6.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="labelPause" focusTraversable="false" layoutX="249.0" layoutY="144.0" prefHeight="110.0" prefWidth="262.0" text="pause" visible="false">
+         <font>
+            <Font name="Bauhaus 93" size="96.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1017.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="flyenemy" fitHeight="100.0" fitWidth="127.0" layoutX="1077.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/1673888063_gas-kvas-com-p-kyubert-risunok-po-kletochkam-13%20(1).png" />
+         </image>
+      </ImageView>
+      <Label fx:id="labelLose" focusTraversable="false" layoutX="295.0" layoutY="163.0" prefHeight="110.0" prefWidth="170.0" text="lose" textFill="#b21414" visible="false">
+         <font>
+            <Font name="Bauhaus 93" size="96.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="player" fitHeight="100.0" fitWidth="88.0" layoutX="49.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/fancyai_1728927550582.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="91.0" fitWidth="57.0" layoutX="801.0" layoutY="289.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="enemy" fitHeight="67.0" fitWidth="57.0" layoutX="801.0" layoutY="311.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/fancyai_1728928411559.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="flyenemy" fitHeight="53.0" fitWidth="102.0" layoutX="1006.0" layoutY="242.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/1673888063_gas-kvas-com-p-kyubert-risunok-po-kletochkam-13.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="flyenemyTwo" fitHeight="85.0" fitWidth="81.0" layoutX="1275.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/fancyai_1728928047091.png" />
+         </image>
+      </ImageView>
+
+   </children>
+</AnchorPane>
